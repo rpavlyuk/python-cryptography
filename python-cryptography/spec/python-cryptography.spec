@@ -8,7 +8,7 @@
 
 %global debug_package %{nil}
 
-Name:           python-%{project}
+Name:           python3-%{project}
 Version:        2.8
 Release:        %{svn_revision}%{?dist}
 Summary:        cryptography is a package designed to expose cryptographic primitives and recipes to Python developers.
@@ -26,6 +26,9 @@ BuildRequires:  python36-setuptools
 BuildRequires:  python3-rpm-macros
 
 Requires:       python36
+Requires:	python36-six
+Requires:	python36-cffi
+Requires:	python36-asn1crypto
 %endif
 
 %if 0%{?fedora} >= 21
