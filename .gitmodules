@@ -1,0 +1,3 @@
+[submodule "python-cryptography/src"]
+	path = python-cryptography/src
+	url = https://github.com/pyca/cryptography.git
