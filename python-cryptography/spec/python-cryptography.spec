@@ -36,6 +36,9 @@ BuildRequires:  python3-setuptools
 BuildRequires:  python3-rpm-macros
 
 Requires:       python3
+Requires:       python3-six
+Requires:       python3-cffi
+Requires:       python3-asn1crypto
 
 %endif
 
